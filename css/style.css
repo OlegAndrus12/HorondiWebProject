@@ -1,0 +1,19 @@
+html, body,header, #intro
+{
+	height: 100%;
+}
+#intro
+{
+	background: url(../img/intro.jpeg);
+}
+
+.row p
+{
+	font-size: 20px;
+}
+
+.carousel-control-next-icon
+{
+	height: 500px;
+	width: 500px;
+}
