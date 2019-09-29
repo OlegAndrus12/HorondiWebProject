@@ -1,19 +1,27 @@
 html, body,header, #intro
 {
 	height: 100%;
+	width: 100%;
 }
 #intro
 {
-	background: url(../img/intro.jpeg);
+	background: url(../img/intro.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 
+.top-nav-collapse
+{
+	background-color: #24355c;
+}
 .row p
 {
 	font-size: 20px;
 }
-
-.carousel-control-next-icon
+@media (max-width: 768px)
 {
-	height: 500px;
-	width: 500px;
+	.navbar: not(.top-nav-collapse)
+	{
+		background-color: #24355c;		
+	}
 }
