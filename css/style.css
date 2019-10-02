@@ -25,3 +25,17 @@ html, body,header, #intro
 		background-color: #24355c;		
 	}
 }
+
+button a
+{
+	color: white;
+}
+button a:hover
+{
+	color: gray;
+}
+#team h2
+{
+	color: black;
+}
+
