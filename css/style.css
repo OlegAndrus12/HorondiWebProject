@@ -10,6 +10,14 @@ html, body,header, #intro
 	background-size: cover;
 }
 
+#gap1
+{
+	background: url(../img/intro.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+
 .top-nav-collapse
 {
 	background-color: #24355c;
@@ -26,6 +34,7 @@ html, body,header, #intro
 	}
 }
 
+
 button a
 {
 	color: white;
@@ -39,3 +48,39 @@ button a:hover
 	color: black;
 }
 
+
+#gallery h2
+{
+	font-size: 40px;
+	color: black;
+	margin-top: -50px;
+	margin-bottom: 20px;
+}
+
+#best-features h2
+{
+	color: black;
+	font-size: 40px;
+	margin-bottom: 0px;
+}
+
+#best-features p
+{
+	margin-bottom: 20px;
+}
+
+#ok
+{
+	background: url(../img/intro2.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 500px;
+}
+#ok2
+{
+	background: url(../img/intro3.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-top: 10px;
+	height: 500px;
+}
