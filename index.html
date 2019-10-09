@@ -11,16 +11,22 @@
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
+      <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="../HorondiWebProject/css/cards-gallery.css">
   <link rel="stylesheet" href="../HorondiWebProject/css/mdb.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!-- End Bootstrap Carousel HEAD section -->
 </head>
 
 <body>
+
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
       <div class = "container">
@@ -94,7 +100,7 @@
   <main>
 
       <!-- Section: Team v.1 -->
-      <section id = "team"class="team-section text-center my-5">
+      <section id = "team"class="team-section text-center my-5 mr-3">
         <!-- Section heading -->
         <h2 class="mb-5 font-weight-bold ">Our amazing team</h2>
         <!-- Grid row -->
@@ -185,6 +191,12 @@
     
     <div id ="ok"></div>
     <div class = "container">
+      <!-- Section: Testimonials v.2 -->
+
+
+
+</section>
+<!-- Section: Testimonials v.2 -->
       <section id = "best-features" class = "text-center">
         <h2 class = "mb-3 mt-5 font-weight-bold ">
           Horondi garantees
@@ -223,6 +235,8 @@
 </div>
 
     <div id ="ok2"></div>
+
+
 
    <section id = "gallery"class="gallery-block cards-gallery mt-4">
       <div class="container">
@@ -433,17 +447,19 @@
     </section>
 
 
-<!-- Section: Testimonials v.3 -->
-<section class="team-section text-center my-5 mr-3">
+<section  class="text-center my-5" >
 
   <!-- Section heading -->
-  <h2 class="h1-responsive font-weight-bold my-5">Testimonials v.3</h2>
-  <!-- Section description -->
-  <p class="dark-grey-text w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam
-    eum porro a pariatur veniam.</p>
+  <h2 class="h1-responsive font-weight-bold my-5">Testimonials</h2>
 
-  <!--Grid row-->
+  <div class="wrapper-carousel-fix">
+    <!-- Carousel Wrapper -->
+    <div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade" data-ride="carousel"
+      data-interval="false">
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+        <!--First slide-->
+        <div class="carousel-item active">
   <div class="row text-center">
 
     <!--Grid column-->
@@ -452,21 +468,19 @@
       <div class="testimonial">
         <!--Avatar-->
         <div class="avatar mx-auto">
-          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg" class="rounded-circle z-depth-1 img-fluid">
+          <img src="../HorondiWebProject/img/customer1.jpg" class="rounded-circle z-depth-1 img-fluid">
         </div>
         <!--Content-->
-        <h4 class="font-weight-bold dark-grey-text mt-4">Anna Deynah</h4>
-        <h6 class="font-weight-bold blue-text my-3">Web Designer</h6>
+        <h4 class="font-weight-bold dark-grey-text mt-4">Anna Olenska</h4
         <p class="font-weight-normal dark-grey-text">
-          <i class="fas fa-quote-left pr-2"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-          eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.</p>
+          <i class="fas fa-quote-left pr-2"></i>I do like the design and I would love to have one in my bags collection..</p>
         <!--Review-->
         <div class="orange-text">
           <i class="fas fa-star"> </i>
           <i class="fas fa-star"> </i>
           <i class="fas fa-star"> </i>
           <i class="fas fa-star"> </i>
-          <i class="fas fa-star-half-alt"> </i>
+          <i class="fas fa-star"> </i>
         </div>
       </div>
 
@@ -479,14 +493,12 @@
       <div class="testimonial">
         <!--Avatar-->
         <div class="avatar mx-auto">
-          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg" class="rounded-circle z-depth-1 img-fluid">
+          <img src="../HorondiWebProject/img/customer2.jpg" class="rounded-circle z-depth-1 img-fluid">
         </div>
         <!--Content-->
-        <h4 class="font-weight-bold dark-grey-text mt-4">John Doe</h4>
-        <h6 class="font-weight-bold blue-text my-3">Web Developer</h6>
+        <h4 class="font-weight-bold dark-grey-text mt-4">Larry Tremski</h4>
         <p class="font-weight-normal dark-grey-text">
-          <i class="fas fa-quote-left pr-2"></i>Ut enim ad minima veniam, quis nostrum exercitationem ullam
-          corporis suscipit laboriosam, nisi ut aliquid commodi.</p>
+          <i class="fas fa-quote-left pr-2"></i>Really cool products which are beautifully made. And such interesting colors and patterns. First-rate- I’m so glad to have discovered them..!!</p>
         <!--Review-->
         <div class="orange-text">
           <i class="fas fa-star"> </i>
@@ -506,14 +518,12 @@
       <div class="testimonial">
         <!--Avatar-->
         <div class="avatar mx-auto">
-          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle z-depth-1 img-fluid">
+          <img src="../HorondiWebProject/img/customer3.jpg" class="rounded-circle z-depth-1 img-fluid">
         </div>
         <!--Content-->
         <h4 class="font-weight-bold dark-grey-text mt-4">Maria Kate</h4>
-        <h6 class="font-weight-bold blue-text my-3">Photographer</h6>
         <p class="font-weight-normal dark-grey-text">
-          <i class="fas fa-quote-left pr-2"></i>At vero eos et accusamus et iusto odio dignissimos ducimus qui
-          blanditiis praesentium voluptatum deleniti atque corrupti.</p>
+          <i class="fas fa-quote-left pr-2"></i> Trustworth quality and design. Moreover my bag have completed oll  different routine crush tests for the last 3 years)))) Thanks!</p>
         <!--Review-->
         <div class="orange-text">
           <i class="fas fa-star"> </i>
@@ -527,11 +537,202 @@
     </div>
     <!--Grid column-->
 
-  </div>
-  <!--Grid row-->
-</section>
+    </div>
+          </div>
+          <!--First slide-->
+          <!--Second slide-->
+          <div class="carousel-item">
+    <div class="row text-center">
 
+      <!--Grid column-->
+      <div class="col-md-4 mb-md-0 mb-5">
+
+        <div class="testimonial">
+          <!--Avatar-->
+          <div class="avatar mx-auto">
+            <img src="../HorondiWebProject/img/customer4.jpg" class="rounded-circle z-depth-1 img-fluid">
+          </div>
+          <!--Content-->
+          <h4 class="font-weight-bold dark-grey-text mt-4">Anka Gorbovaya</h4>
+          <p class="font-weight-normal dark-grey-text">
+            <i class="fas fa-quote-left pr-2"></i>High quality vs moderative service
+          <div class="orange-text">
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+            <i class="far fa-star"> </i>
+          </div>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-4 mb-md-0 mb-5">
+
+        <div class="testimonial">
+          <!--Avatar-->
+          <div class="avatar mx-auto">
+            <img src="../HorondiWebProject/img/customer5.jpg" class="rounded-circle z-depth-1 img-fluid">
+          </div>
+          <!--Content-->
+          <h4 class="font-weight-bold dark-grey-text mt-4">Anastasiia Kuryan</h4>
+          <p class="font-weight-normal dark-grey-text">
+            <i class="fas fa-quote-left pr-2"></i>Each time somebody sees my knapsack, i am pulled out with question "Where did you get it. I want exactly the same bag!"</p>
+          <!--Review-->
+          <div class="orange-text">
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+          </div>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-4">
+
+        <div class="testimonial">
+          <!--Avatar-->
+          <div class="avatar mx-auto">
+            <img src="../HorondiWebProject/img/customer6.jpg" class="rounded-circle z-depth-1 img-fluid">
+          </div>
+          <!--Content-->
+          <h4 class="font-weight-bold dark-grey-text mt-4">Oleg Andrus</h4>
+          <p class="font-weight-normal dark-grey-text">
+            <i class="fas fa-quote-left pr-2"></i>Even for finding out more about Emmaus agenda you should visit such studio and buy some pretty bags or wallets </p>
+          <!--Review-->
+          <div class="orange-text">
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+            <i class="far fa-star"> </i>
+          </div>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+    </div>
+          </div>
+          <!--Second slide-->
+          <!--Third slide-->
+          <div class="carousel-item">
+    <div class="row text-center">
+
+      <!--Grid column-->
+      <div class="col-md-4 mb-md-0 mb-5">
+
+        <div class="testimonial">
+          <!--Avatar-->
+          <div class="avatar mx-auto">
+            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg" class="rounded-circle z-depth-1 img-fluid">
+          </div>
+          <!--Content-->
+          <h4 class="font-weight-bold dark-grey-text mt-4">Anna Deynah</h4>
+          <h6 class="font-weight-bold blue-text my-3">Web Designer</h6>
+          <p class="font-weight-normal dark-grey-text">
+            <i class="fas fa-quote-left pr-2"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+            eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.</p>
+          <!--Review-->
+          <div class="orange-text">
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star-half-alt"> </i>
+          </div>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-4 mb-md-0 mb-5">
+
+        <div class="testimonial">
+          <!--Avatar-->
+          <div class="avatar mx-auto">
+            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg" class="rounded-circle z-depth-1 img-fluid">
+          </div>
+          <!--Content-->
+          <h4 class="font-weight-bold dark-grey-text mt-4">John Doe</h4>
+          <h6 class="font-weight-bold blue-text my-3">Web Developer</h6>
+          <p class="font-weight-normal dark-grey-text">
+            <i class="fas fa-quote-left pr-2"></i>Ut enim ad minima veniam, quis nostrum exercitationem ullam
+            corporis suscipit laboriosam, nisi ut aliquid commodi.</p>
+          <!--Review-->
+          <div class="orange-text">
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+          </div>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-4">
+
+        <div class="testimonial">
+          <!--Avatar-->
+          <div class="avatar mx-auto">
+            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle z-depth-1 img-fluid">
+          </div>
+          <!--Content-->
+          <h4 class="font-weight-bold dark-grey-text mt-4">Maria Kate</h4>
+          <h6 class="font-weight-bold blue-text my-3">Photographer</h6>
+          <p class="font-weight-normal dark-grey-text">
+            <i class="fas fa-quote-left pr-2"></i>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+            blanditiis praesentium voluptatum deleniti atque corrupti.</p>
+          <!--Review-->
+          <div class="orange-text">
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+            <i class="far fa-star"> </i>
+          </div>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+    </div>
+          </div>
+          <!--Third slide-->
+        </div>
+        <!--Slides-->
+        <!--Controls-->
+        <a class="carousel-control-prev left carousel-control" href="#carousel-example-1" role="button"
+          data-slide="prev">
+          <span class="icon-prev" aria-hidden="false"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next right carousel-control" href="#carousel-example-1" role="button"
+          data-slide="next">
+          <span class="icon-next" aria-hidden="false"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      <!--Controls-->
+    </div>
+    <!-- Carousel Wrapper -->
+</div>
+
+
+<!--Carousel Wrapper-->
+
+<!--/.Carousel Wrapper-->
   </main>
+
 <!-- Section: Testimonials v.3 -->
   <!-- SCRIPTS -->
   <!-- JQuery -->
@@ -544,7 +745,7 @@
   <!-- Bootstrap tooltips -->
   <script type="text/javascript" src="../HorondiWebProject/js/popper.min.js"></script>
   <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="../HorondiWebProject/js/bootstrap.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="../HorondiWebProject/js/mdb.min.js"></script>
 </body>

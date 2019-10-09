@@ -35,6 +35,7 @@ html, body,header, #intro
 }
 
 
+
 button a
 {
 	color: white;
@@ -68,6 +69,12 @@ button a:hover
 {
 	margin-bottom: 20px;
 }
+
+#reviews
+{
+	background: url("https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg");
+}
+
 
 #ok
 {
