@@ -5,7 +5,7 @@ html, body,header, #intro
 }
 #intro
 {
-	background: url(../img/intro.jpeg) no-repeat center center fixed;
+	background: url(../img/intro4.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -68,6 +68,10 @@ button a:hover
 {
 	text-align: center;
 }
+#videoframe
+{
+	text-align: left;
+}
 
 #best-features p
 {
@@ -100,9 +104,26 @@ button a:hover
 	background-size: cover;
 	height: 500px;
 }
-#ok2
+#ok2 
 {
-	background: url(../img/intro3.jpg) no-repeat center center fixed;
+	background: url(../img/intro5.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-top: 10px;
+	height: 500px;
+}
+
+#ok3
+{
+	background: url(../img/intro6.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-top: 10px;
+	height: 500px;
+}
+#ok4
+{
+	background: url(../img/intro10.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
 	margin-top: 10px;

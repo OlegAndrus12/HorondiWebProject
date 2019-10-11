@@ -50,6 +50,13 @@
              <li class="nav-item">
               <a href = "#contacts" class="nav-link waves-effect waves-light">Contacts</a>
             </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="../HorondiWebProject/img/english.png"> English</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown09">
+                    <a class="dropdown-item" href="index_ua"><img src="../HorondiWebProject/img/ukraine.png">Ukrainian</a>
+                  </div>
+            </li>
           </ul>
 
           <ul class ="navbar-nav nav-flex-icons">
@@ -449,6 +456,8 @@
       </div>
     </section>
 
+    <div id ="ok3"></div>
+
 
 <section  class="text-center my-5" >
 
@@ -729,9 +738,12 @@
     </div>
     <!-- Carousel Wrapper -->
 
+
+    <div id ="ok4"></div>
+
 <div class = "container">
   <!-- Section: Contact v.3 -->
-<section id = "contacts" class="contact-section my-5">
+<section id = "contacts" class="contact-section my-5" action = "contact-3.php">
 
   <!-- Form with header -->
   <div class="card">
@@ -753,8 +765,8 @@
             <!-- Grid column -->
             <div class="col-md-6">
               <div class="md-form mb-0">
-                <input type="text" id="form-contact-name" class="form-control">
-                <label for="form-contact-name" class="">Your name</label>
+                <input type="text" id="form-contact-name" name = "name" class="form-control">
+                <label for="form-contact-name"  class="">Your name</label>
               </div>
             </div>
             <!-- Grid column -->
@@ -762,8 +774,8 @@
             <!-- Grid column -->
             <div class="col-md-6">
               <div class="md-form mb-0">
-                <input type="text" id="form-contact-email" class="form-control">
-                <label for="form-contact-email" class="">Your email</label>
+                <input type="email" id="form-contact-email" name = "email" class="form-control">
+                <label for="form-contact-email"   class="">Your email</label>
               </div>
             </div>
             <!-- Grid column -->
@@ -777,7 +789,7 @@
             <!-- Grid column -->
             <div class="col-md-12">
               <div class="md-form mb-0">
-                <input type="text" id="form-contact-phone" class="form-control">
+                <input type="tel" id="form-contact-phone" name = "phone" class="form-control">
                 <label for="form-contact-phone" class="">Your phone</label>
               </div>
             </div>
@@ -793,7 +805,7 @@
             <!-- Grid column -->
             <div class="col-md-12 ">
               <div class="md-form mb-0">
-                <textarea id="form-contact-message" class="form-control md-textarea" rows="2"></textarea>
+                <textarea id="form-contact-message" name = "message" class="form-control md-textarea" rows="2"></textarea>
                 <label for="form-contact-message">Your message</label>
                 <div class = "text-center">
                 <a  id = "plane_button"class="btn-floating btn-lg text-center blue w-50 ">
@@ -867,6 +879,185 @@
 
   </main>
 
+<!-- Footer -->
+<footer class="page-footer font-small bg-dark pt-4">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!--Grid row-->
+    <div class="row">
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-12 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" class="img-fluid"
+            alt="">
+            <div class="mask rgba-white-light"></div>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(78).jpg" class="img-fluid"
+            alt="">
+          
+            <div class="mask rgba-white-light"></div>
+          
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(79).jpg" class="img-fluid"
+            alt="">
+            <div class="mask rgba-white-light"></div>
+          
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-12 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(81).jpg" class="img-fluid"
+            alt="">
+            <div class="mask rgba-white-light"></div>
+          </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(82).jpg" class="img-fluid"
+            alt="">
+            <div class="mask rgba-white-light"></div>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(84).jpg" class="img-fluid"
+            alt="">
+            <div class="mask rgba-white-light"></div>
+          </div>
+
+      </div>
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+<!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5">
+        <div class="mb-5 flex-center">
+
+          <!-- Facebook -->
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Pinterest-->
+          <a class="pin-ic">
+            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+          </a>
+        </div>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+ 
+ <!-- Footer Elements -->
+  <div class="container">
+
+    <!--Grid row-->
+    <div class="row d-flex" id = "videoframe">
+
+      <!--Grid column-->
+      <div class="col-md-6">
+
+        <!-- Video -->
+        <div class="embed-responsive embed-responsive-16by9 mb-4">
+          <iframe width="1280" height="720" src="https://www.youtube.com/embed/_NdUI2PNdLg?list=PL9o6bQUWYNvLz70v9-ZCo1ZD4zPPztqi6" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+      </div>
+      <!--Grid column-->
+        <div class="col-md-6">
+          <h2> Horondi</h2>
+             <p class = "white-text mt-2 mb-5">
+                We dare to create something new, absolutely uncomparable product which you like to use in your 
+                daily routine. You can help Horondi`s brand became more popular by sharing information about us among your nearest colleagues, friends.
+                From the our side we promise to become from day-to-day better.
+              </p>
+        </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <a href="https://www.facebook.com/profile.php?id=100010489068791"> Oleg Andrus</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
 <!-- Section: Testimonials v.3 -->
   <!-- SCRIPTS -->
   <!-- JQuery -->
