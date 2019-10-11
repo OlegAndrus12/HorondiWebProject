@@ -1,2 +1,2 @@
 # HorondiWebProject
-Static website for Horondi brand
+https://olegandrus12.github.io/HorondiWebProject/
