@@ -3,6 +3,13 @@ html, body,header, #intro
 	height: 100%;
 	width: 100%;
 }
+
+#basicExampleNav
+{
+	height: 50px;
+	font-size: 20px;
+}
+
 #intro
 {
 	background: url(../img/intro4.jpg) no-repeat center center fixed;
